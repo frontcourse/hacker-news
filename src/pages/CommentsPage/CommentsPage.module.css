@@ -1,0 +1,15 @@
+.link {
+    display: block;
+    color: #2b19ff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.link:hover {
+    color: #1200b6;
+}
+
+.news {
+    margin-bottom: 15px;
+}

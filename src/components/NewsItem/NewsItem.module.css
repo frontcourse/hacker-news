@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px;
+    height: 90px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.externalLink {
+    color: #1200b6;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userData {
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.score {
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.lowScore {
+    background-color: #8f8f8f;
+    color: white;
+}
+
+.midScore {
+    background-color: #ffd6a1;
+    color: #f88500;
+}
+
+.highScore {
+    background-color: #e7acff;
+    color: #c02cff;
+}
